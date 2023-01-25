@@ -126,6 +126,24 @@ main .col{
         content:"Sostenibilità";
     }
     /* col text container */
+    main .col-text{
+        padding-top: 5px;
+    }
+    h3.brand{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    h2.product-name{
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .col-text .price{
+        color: red;
+    }
+    .col-text .discounted{
+        text-decoration: line-through;
+        color: black;
+    }
 
 /* footer */
 footer{
