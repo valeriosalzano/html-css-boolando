@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+/* debug */
+
+
+/* CSS rules */
+.flexed{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkorange;
+    height: 100px;
+    padding: 20px;
+    color: white;
+}
+header .container{
+    margin: auto;
+    width: 80%;
+    max-width: 1170px;
+    min-width: none;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-menu{
+    flex-grow: 1;
+}
+header #logo{
+    flex-grow: 2;
+    text-align: center;
+}
+#logo img{
+    height: 50px;
+}
+.user-menu{
+    flex-grow: 1;
+    text-align: end;
+}
