@@ -69,6 +69,7 @@ header #logo{
 
 /* main */
 main .columns{
+    flex-wrap: wrap;
     padding: 150px 0;    
 }
 main .col{
@@ -130,6 +131,7 @@ main .col{
         padding-top: 5px;
     }
     h3.brand{
+        text-transform: capitalize;
         font-size: 14px;
         font-weight: 300;
     }
