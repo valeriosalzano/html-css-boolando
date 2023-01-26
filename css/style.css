@@ -84,13 +84,14 @@ main .col{
         position: relative;
     }
     .col img{
+        display: block;
         width: 100%;
     }
     img.hidden{
         display: none;
     }
     .col-img:hover img.hidden{
-        display: inline-block;
+        display: block;
     }
     .col-img:hover img:not(hidden){
         display: none;
